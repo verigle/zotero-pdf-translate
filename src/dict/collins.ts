@@ -42,7 +42,7 @@ async function collinsdict(text: string = undefined) {
         })
         .join("");
 
-      const result = `${explanationText}\n${phoneticText}`; // insert phonetic symbol to result
+      const result = `${explanationText}\n${phoneticText}`; //   insert phonetic symbol to result
 
       // TODO: wait for pr #224
       const audioURL: string[] = Array.prototype.map.call(
